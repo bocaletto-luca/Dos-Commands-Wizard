@@ -2,7 +2,6 @@
 
 - **Language:** Italian
 - **Author:** Bocaletto Luca
-- **Website:** [https://www.elektronoide.it](https://www.elektronoide.it)
 
 **Description:**
 
@@ -28,7 +27,6 @@ Dos Commands Wizard is a useful tool for automating tasks and simplifying the ex
 
 - **Lingua:** Italiano
 - **Autore:** Bocaletto Luca
-- **Sito Web:** [https://www.elektronoide.it](https://www.elektronoide.it)
 
 **Descrizione:**
 
