@@ -1,7 +1,7 @@
 # Software Name: Dos Commands Wizard
 # Language: Italian
 # Author: Bocaletto Luca
-# Web Site: https://www.elektronoide.it
+# Web Site: https://bocaletto-luca.github.io
 # Importa le librerie necessarie
 import tkinter as tk  # Per la creazione dell'interfaccia grafica
 import sqlite3  # Per la gestione del database
