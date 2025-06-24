@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Dos Commands Wizard – GUI Scheduler for Console Commands</title>
+  <meta name="description" content="Dos Commands Wizard is a Python GUI tool by Bocaletto Luca that lets you run, schedule and manage DOS or shell commands, with a built-in SQLite database for custom commands."/>
+  <meta name="keywords" content="Dos Commands Wizard, Python, Tkinter, SQLite3, command scheduler, GUI, custom commands, Bocaletto Luca"/>
+  <meta name="author" content="Bocaletto Luca"/>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    crossorigin="anonymous"
+  />
+  <style>
+    body { padding-top: 4.5rem; }
+    .btn-repo { font-family: monospace; }
+    .feature-list li { margin-bottom: .5rem; }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Dos Commands Wizard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navContent" aria-controls="navContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link btn-repo" href="https://github.com/bocaletto-luca/Dos-Commands-Wizard" target="_blank">
+              GitHub Repo
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <header class="text-center my-5">
+      <h1 class="display-4">Dos Commands Wizard</h1>
+      <p class="lead">
+        A Python GUI application by <strong>Bocaletto Luca</strong> to execute, schedule and manage console commands with ease.
+      </p>
+      <a href="https://github.com/bocaletto-luca/Dos-Commands-Wizard" class="btn btn-primary btn-repo" target="_blank">
+        View on GitHub
+      </a>
+    </header>
+
+    <section class="mb-5">
+      <h2>Project Overview</h2>
+      <p>
+        Dos Commands Wizard provides a simple graphical interface for running DOS or shell commands on Windows and Linux.
+        Type any command, execute it instantly or schedule it to run at regular intervals. 
+        Store your frequently used commands in a local SQLite database and load them with one click.
+      </p>
+    </section>
+
+    <section class="mb-5">
+      <h2>Key Features</h2>
+      <ul class="feature-list">
+        <li>🖥️ <strong>Command Input:</strong> Enter any shell or DOS command.</li>
+        <li>⏰ <strong>Scheduling:</strong> Schedule commands to run repeatedly at a set interval.</li>
+        <li>▶️ <strong>Immediate Execution:</strong> Run commands on demand.</li>
+        <li>🔄 <strong>Reset Schedule:</strong> Cancel scheduled jobs with a button click.</li>
+        <li>💾 <strong>Custom Commands:</strong> Add, edit and delete commands stored in <code>custom_commands.db</code>.</li>
+        <li>📝 <strong>Output Viewer:</strong> Colored display for standard output and errors.</li>
+        <li>🔗 <strong>Cross-Platform:</strong> Works on Windows, macOS and Linux.</li>
+      </ul>
+    </section>
+
+    <section class="mb-5">
+      <h2>Installation & Usage</h2>
+      <p>To get started, clone the repository and install dependencies:</p>
+      <pre><code class="bash">git clone https://github.com/bocaletto-luca/Dos-Commands-Wizard.git
+cd Dos-Commands-Wizard
+pip install tk sqlite3</code></pre>
+      <p>Run the application:</p>
+      <pre><code class="bash">python src/chapter22.py</code></pre>
+      <p>The GUI will open—enter your command, choose “Run Now” or “Schedule Command” and watch the output.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2>Screenshots</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="screenshot-main.png" alt="Main Window" class="img-fluid rounded mb-3">
+        </div>
+        <div class="col-md-6">
+          <img src="screenshot-custom.png" alt="Custom Commands List" class="img-fluid rounded">
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2>Author & License</h2>
+      <p>
+        <strong>Author:</strong> Bocaletto Luca<br>
+        <strong>License:</strong> MIT License (see <code>LICENSE</code> in repo)
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 border-top">
+    <small>
+      © 2025 Bocaletto Luca • 
+      <a href="https://bocaletto-luca.github.io" target="_blank">bocaletto-luca.github.io</a>
+    </small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
