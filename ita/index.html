@@ -4,11 +4,11 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description"
-        content="Dos Commands Wizard è un’applicazione GUI Python di Bocaletto Luca per eseguire, programmare e gestire comandi da console, con database SQLite integrato."/>
+        content="Dos Commands Wizard è un’applicazione GUI Python di Bocaletto Luca per eseguire, programmare e gestire comandi da console su Windows, macOS e Linux, con database SQLite integrato."/>
   <meta name="keywords"
         content="Dos Commands Wizard, Python, Tkinter, SQLite3, pianificazione comandi, GUI, comandi personalizzati, Bocaletto Luca"/>
   <meta name="author" content="Bocaletto Luca"/>
-  <title>Dos Commands Wizard – Scheduler per Comandi da Console</title>
+  <title>Dos Commands Wizard – Scheduler per comandi da console</title>
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -56,37 +56,36 @@
     </header>
 
     <section class="mb-5">
-      <h2>Panoramica del progetto</h2>
+      <h2>Panoramica</h2>
       <p>
-        Dos Commands Wizard consente di eseguire comandi DOS o shell su Windows, macOS e Linux
-        tramite un’interfaccia grafica intuitiva. Digita un comando, eseguilo subito o
-        programmalo a intervalli regolari. Salva le tue istruzioni preferite in un database
-        SQLite integrato e caricale con un clic.
+        Dos Commands Wizard offre un’interfaccia grafica semplice per eseguire comandi DOS o shell su Windows, macOS e Linux.
+        Digita un comando, eseguilo subito o imposta una cadenza ripetuta.  
+        Salva i tuoi comandi preferiti in un database SQLite integrato e caricali con un clic.
       </p>
     </section>
 
     <section class="mb-5">
-      <h2>Caratteristiche principali</h2>
+      <h2>Caratteristiche</h2>
       <ul class="feature-list">
-        <li>🖥️ <strong>Inserimento comandi:</strong> Digita qualsiasi comando DOS o shell.</li>
-        <li>⏰ <strong>Pianificazione:</strong> Esegui automaticamente comandi a intervalli definiti.</li>
-        <li>▶️ <strong>Esecuzione immediata:</strong> Avvia subito il comando.</li>
-        <li>🔄 <strong>Reset pianificazione:</strong> Annulla tutti i job programmati.</li>
-        <li>💾 <strong>Comandi personalizzati:</strong> Aggiungi, modifica e rimuovi comandi nel database <code>custom_commands.db</code>.</li>
-        <li>📝 <strong>Visualizzazione output:</strong> Output colorato per successo (verde) ed errori (rosso).</li>
-        <li>🌐 <strong>Cross-platform:</strong> Compatibile con Windows, macOS e Linux.</li>
+        <li>🖥️ <strong>Inserimento Comandi:</strong> Digita qualsiasi comando da console.</li>
+        <li>⏱️ <strong>Pianificazione:</strong> Esegui automaticamente comandi a intervalli definiti.</li>
+        <li>▶️ <strong>Esecuzione Immediata:</strong> Avvia il comando con “Run Now”.</li>
+        <li>🔄 <strong>Reset Pianificazione:</strong> Annulla la schedulazione corrente.</li>
+        <li>💾 <strong>Comandi Personalizzati:</strong> Aggiungi, modifica e rimuovi comandi in <code>custom_commands.db</code>.</li>
+        <li>📝 <strong>Visualizzazione Output:</strong> Output colorato per successi (verde) ed errori (rosso).</li>
+        <li>🔗 <strong>Multipiattaforma:</strong> Funziona su Windows, macOS e Linux.</li>
       </ul>
     </section>
 
     <section class="mb-5">
-      <h2>Installazione &amp; Utilizzo</h2>
+      <h2>Installazione &amp; Avvio</h2>
       <p>Clona il repository e installa le dipendenze:</p>
       <pre><code class="bash">git clone https://github.com/bocaletto-luca/Dos-Commands-Wizard.git
 cd Dos-Commands-Wizard
 pip install tk sqlite3</code></pre>
       <p>Avvia l’applicazione:</p>
       <pre><code class="bash">python src/chapter22.py</code></pre>
-      <p>Si aprirà l’interfaccia grafica: digita un comando, scegli “Esegui ora” o “Programma comando” e visualizza l’output.</p>
+      <p>Si aprirà la GUI: inserisci un comando, seleziona “Run Now” o “Schedule Command” e visualizza l’output.</p>
     </section>
 
     <section class="mb-5">
@@ -96,7 +95,7 @@ pip install tk sqlite3</code></pre>
           <img src="screenshot-main.png" alt="Finestra principale" class="img-fluid rounded">
         </div>
         <div class="col-md-6">
-          <img src="screenshot-custom.png" alt="Lista comandi personalizzati" class="img-fluid rounded">
+          <img src="screenshot-custom.png" alt="Finestra comandi personalizzati" class="img-fluid rounded">
         </div>
       </div>
     </section>
@@ -105,11 +104,12 @@ pip install tk sqlite3</code></pre>
       <h2>Autore &amp; Licenza</h2>
       <p>
         <strong>Autore:</strong> Bocaletto Luca<br>
-        <strong>Licenza:</strong> MIT License (vedi <code>LICENSE</code> nel repo)
+        <strong>Licenza:</strong> MIT License (vedi <code>LICENSE</code>)
       </p>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="text-center py-4 border-top">
     <small>
       © 2025 Bocaletto Luca •
@@ -117,8 +117,6 @@ pip install tk sqlite3</code></pre>
     </small>
   </footer>
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
