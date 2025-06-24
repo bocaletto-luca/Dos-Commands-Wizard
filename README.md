@@ -1,6 +1,6 @@
 ## Dos Commands Wizard
 
-- **Language:** English
+- **Language:** English, Italian.
 - **Author:** Bocaletto Luca
 
 **Description:**
