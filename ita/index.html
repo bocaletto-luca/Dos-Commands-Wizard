@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Dos Commands Wizard – GUI Scheduler for Console Commands</title>
-  <meta name="description" content="Dos Commands Wizard is a Python GUI tool by Bocaletto Luca that lets you run, schedule and manage DOS or shell commands, with a built-in SQLite database for custom commands."/>
-  <meta name="keywords" content="Dos Commands Wizard, Python, Tkinter, SQLite3, command scheduler, GUI, custom commands, Bocaletto Luca"/>
+  <meta name="description"
+        content="Dos Commands Wizard è un’applicazione GUI Python di Bocaletto Luca per eseguire, programmare e gestire comandi da console, con database SQLite integrato."/>
+  <meta name="keywords"
+        content="Dos Commands Wizard, Python, Tkinter, SQLite3, pianificazione comandi, GUI, comandi personalizzati, Bocaletto Luca"/>
   <meta name="author" content="Bocaletto Luca"/>
+  <title>Dos Commands Wizard – Scheduler per Comandi da Console</title>
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -31,9 +33,9 @@
       <div class="collapse navbar-collapse" id="navContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link btn-repo" href="https://github.com/bocaletto-luca/Dos-Commands-Wizard" target="_blank">
-              GitHub Repo
-            </a>
+            <a class="nav-link btn-repo"
+               href="https://github.com/bocaletto-luca/Dos-Commands-Wizard"
+               target="_blank">GitHub Repo</a>
           </li>
         </ul>
       </div>
@@ -45,75 +47,78 @@
     <header class="text-center my-5">
       <h1 class="display-4">Dos Commands Wizard</h1>
       <p class="lead">
-        A Python GUI application by <strong>Bocaletto Luca</strong> to execute, schedule and manage console commands with ease.
+        Un’applicazione GUI Python di <strong>Bocaletto Luca</strong> per eseguire, programmare e gestire comandi da console.
       </p>
-      <a href="https://github.com/bocaletto-luca/Dos-Commands-Wizard" class="btn btn-primary btn-repo" target="_blank">
-        View on GitHub
+      <a href="https://github.com/bocaletto-luca/Dos-Commands-Wizard"
+         class="btn btn-primary btn-repo" target="_blank">
+        Visualizza su GitHub
       </a>
     </header>
 
     <section class="mb-5">
-      <h2>Project Overview</h2>
+      <h2>Panoramica del progetto</h2>
       <p>
-        Dos Commands Wizard provides a simple graphical interface for running DOS or shell commands on Windows and Linux.
-        Type any command, execute it instantly or schedule it to run at regular intervals. 
-        Store your frequently used commands in a local SQLite database and load them with one click.
+        Dos Commands Wizard consente di eseguire comandi DOS o shell su Windows, macOS e Linux
+        tramite un’interfaccia grafica intuitiva. Digita un comando, eseguilo subito o
+        programmalo a intervalli regolari. Salva le tue istruzioni preferite in un database
+        SQLite integrato e caricale con un clic.
       </p>
     </section>
 
     <section class="mb-5">
-      <h2>Key Features</h2>
+      <h2>Caratteristiche principali</h2>
       <ul class="feature-list">
-        <li>🖥️ <strong>Command Input:</strong> Enter any shell or DOS command.</li>
-        <li>⏰ <strong>Scheduling:</strong> Schedule commands to run repeatedly at a set interval.</li>
-        <li>▶️ <strong>Immediate Execution:</strong> Run commands on demand.</li>
-        <li>🔄 <strong>Reset Schedule:</strong> Cancel scheduled jobs with a button click.</li>
-        <li>💾 <strong>Custom Commands:</strong> Add, edit and delete commands stored in <code>custom_commands.db</code>.</li>
-        <li>📝 <strong>Output Viewer:</strong> Colored display for standard output and errors.</li>
-        <li>🔗 <strong>Cross-Platform:</strong> Works on Windows, macOS and Linux.</li>
+        <li>🖥️ <strong>Inserimento comandi:</strong> Digita qualsiasi comando DOS o shell.</li>
+        <li>⏰ <strong>Pianificazione:</strong> Esegui automaticamente comandi a intervalli definiti.</li>
+        <li>▶️ <strong>Esecuzione immediata:</strong> Avvia subito il comando.</li>
+        <li>🔄 <strong>Reset pianificazione:</strong> Annulla tutti i job programmati.</li>
+        <li>💾 <strong>Comandi personalizzati:</strong> Aggiungi, modifica e rimuovi comandi nel database <code>custom_commands.db</code>.</li>
+        <li>📝 <strong>Visualizzazione output:</strong> Output colorato per successo (verde) ed errori (rosso).</li>
+        <li>🌐 <strong>Cross-platform:</strong> Compatibile con Windows, macOS e Linux.</li>
       </ul>
     </section>
 
     <section class="mb-5">
-      <h2>Installation & Usage</h2>
-      <p>To get started, clone the repository and install dependencies:</p>
+      <h2>Installazione &amp; Utilizzo</h2>
+      <p>Clona il repository e installa le dipendenze:</p>
       <pre><code class="bash">git clone https://github.com/bocaletto-luca/Dos-Commands-Wizard.git
 cd Dos-Commands-Wizard
 pip install tk sqlite3</code></pre>
-      <p>Run the application:</p>
+      <p>Avvia l’applicazione:</p>
       <pre><code class="bash">python src/chapter22.py</code></pre>
-      <p>The GUI will open—enter your command, choose “Run Now” or “Schedule Command” and watch the output.</p>
+      <p>Si aprirà l’interfaccia grafica: digita un comando, scegli “Esegui ora” o “Programma comando” e visualizza l’output.</p>
     </section>
 
     <section class="mb-5">
-      <h2>Screenshots</h2>
+      <h2>Screenshot</h2>
       <div class="row">
-        <div class="col-md-6">
-          <img src="screenshot-main.png" alt="Main Window" class="img-fluid rounded mb-3">
+        <div class="col-md-6 mb-3">
+          <img src="screenshot-main.png" alt="Finestra principale" class="img-fluid rounded">
         </div>
         <div class="col-md-6">
-          <img src="screenshot-custom.png" alt="Custom Commands List" class="img-fluid rounded">
+          <img src="screenshot-custom.png" alt="Lista comandi personalizzati" class="img-fluid rounded">
         </div>
       </div>
     </section>
 
     <section class="mb-5">
-      <h2>Author & License</h2>
+      <h2>Autore &amp; Licenza</h2>
       <p>
-        <strong>Author:</strong> Bocaletto Luca<br>
-        <strong>License:</strong> MIT License (see <code>LICENSE</code> in repo)
+        <strong>Autore:</strong> Bocaletto Luca<br>
+        <strong>Licenza:</strong> MIT License (vedi <code>LICENSE</code> nel repo)
       </p>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="text-center py-4 border-top">
     <small>
-      © 2025 Bocaletto Luca • 
+      © 2025 Bocaletto Luca •
       <a href="https://bocaletto-luca.github.io" target="_blank">bocaletto-luca.github.io</a>
     </small>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
 </body>
 </html>
