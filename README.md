@@ -22,3 +22,13 @@ Dos Commands Wizard is a Python application that provides a graphical interface 
 - User interface for managing custom commands, including addition, editing, and deletion.
 
 Dos Commands Wizard is a useful tool for automating tasks and simplifying the execution of DOS/Shell commands in Windows environments.
+
+---
+
+**Note**: Ensure that you have installed all the necessary dependencies before running the application.
+
+**Maintainer Update**
+
+My current GitHub account is **@bocaletto-luca**, which is now the official maintainer of all projects previously published under the **@Elektronoide** account. Please direct any issues, pull requests, or stars to **@bocaletto-luca** for future updates.
+
+---
